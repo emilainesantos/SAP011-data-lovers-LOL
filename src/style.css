@@ -1,0 +1,38 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  position: relative;
+}
+
+.loading-screen {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+ /* background: rgba(0, 0, 0, 1); /*FUNDO*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinner {
+  border: 5px solid #639;
+  border-radius: 50%;
+  border-left: transparent;
+  height: 50px;
+  width: 50px;
+  animation: spin 1s linear infinite;
+  
+}
+
+@keyframes spin {
+  from{
+    transform: rotate(0deg); /* 0 graus para  360 graus*/
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
