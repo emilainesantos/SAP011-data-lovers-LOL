@@ -6,7 +6,7 @@ function preCarregamento(){
 
   setTimeout(() => {
     pre_carregamento.style.display = "none";
-  }, 3000);
+  }, 5000);
 }
 
 
