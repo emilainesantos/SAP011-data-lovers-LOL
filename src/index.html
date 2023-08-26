@@ -7,7 +7,7 @@
 
   </head>
   <body onload="preCarregamento();">
-    <div class="loading-screen">
+    <div class="loading-screen" >
       <img class="spinner" src="img/lol-logo-38475.PNG" alt="logo-load-page">
 
     </div>
@@ -16,19 +16,69 @@
 
 
     <header>
-      <a href="/">logo</a>
+      <!-- BARRA DE NAVEGAÇÃO PRINCIPAL -->
+
       <nav>
-        <a href="" >Heroes</a>
-        <a href="" >sobre</a>
-        <a href="" >Jogar</a>
+        <img class="logo" src="img/logo-removebg-preview.png">
+        <ul>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Herois</a></li>
+          <li><a href="#">Jogar</a></li>
+
+        </ul>
       </nav>
 
     </header>
 
+    <h1 >teste</h1>
 
 
-    <h1>teste</h1>
 
+    <main>
+      <section class="menu-fixo">
+        <div class="container">
+          <ul class="menu" role="menu">
+            <li class="filtra-campeoes" id="filtra-todos"> Todos</li>
+            <li class="filtra-campeoes" id="Assassin"> Assassinos </li>
+            <li class="filtra-campeoes" id="Fighter"> Lutadores</li>
+            <li class="filtra-campeoes" id="Mage"> Magos </li>
+            <li class="filtra-campeoes" id="Marksman"> Atiradores </li>
+            <li class="filtra-campeoes" id="Support"> Suportes</li>
+            <li class="filtra-campeoes" id="Tank"> Tanques </li>
+          </ul>
+
+      <!-- AQUI COMEÇA O CAMPO DE BUSCA POR NOME E CLASSIFICAÇÃO DOS CAMPEÕES  -->
+      <section class="busca-classifica">
+        <input type="text" id="txt-busca" placeholder="Buscar campeão" />
+        <select class="selecione">
+          <option>Classificação</option>
+          <option value="maior-ataque">Maior ataque </option>
+          <option value="maior-defesa"> Maior defesa </option>
+          <option value="maior-magia"> Maior magia </option>
+          <option value="maior-dificuldade"> Maior dificuldade </option>
+          <option value="menor-ataque"> Menor ataque</option>
+          <option value="menor-defesa"> Menor defesa </option>
+          <option value="menor-magia"> Menor magia </option>
+          <option value="menor-dificuldade"> Menor dificuldade </option>
+        </select>
+        <button onClick="window.location.reload()" class="botao-limpar"> Limpar pesquisa</button>
+      </section>
+      </div>
+    </section>
+
+
+
+      <!-- AQUI FICARÃO OS CARDS DOS CAMPEÕES -->
+      <section class="todos-campeoes">
+        <p id="calculo-agregado"></p>
+        <div id="exibirCards">
+        </div>
+      </section>
+
+    </main>
+
+
+    
 
     <div id="root"></div>
     <script src="main.js" type="module"></script>

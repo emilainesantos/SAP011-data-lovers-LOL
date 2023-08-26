@@ -4,8 +4,31 @@
   box-sizing: border-box;
 }
 
+
 body{
   position: relative;
+}
+
+
+ /*BARRA DE NAVEGAÇÃO */
+body nav{
+  background-color: rgb(16, 221, 187);
+  display: flex;
+  flex-direction: row-reverse;
+
+}
+
+main ul{
+  background: rgb(199, 18, 79);
+  display: flex;
+
+  flex-direction: row
+
+
+}
+
+.logo {
+  width: 10%;
 }
 
 .loading-screen {
@@ -18,8 +41,6 @@ body{
   align-items: center;
   transition: 5s;
 
-;
-
 }
 
 .spinner  {
@@ -27,14 +48,170 @@ body{
   max-width: 100%;
   width: 80%;
   border-left: transparent;
-  animation: efeito 3s linear ;
+  animation: efeito 5s linear ;
 
   /* -webkit-filter: drop-shadow(0px 0px 20px rgba(224, 12, 12, 0.9));
    filter: drop-shadow(0px 0px 20px rgba(204, 15, 15, 0.9)); */
 
+}
+
+/*corpo*/
+
+/*menu lateral*/
+
+main ul{
+  display: grid;
+  grid-auto-columns: 10%;
+
+}
+
+
+
+/*MENU FIXO */
+.menu-fixo {
+  background: green;
+  top: calc(5%);
+}
+
+
+/* .container {
+  border-style: double;
+  text-transform: uppercase;
+  border-radius: 38px 0 38px 0;
+  background: url(./imagens/fundoMenu.png);
+  border-color: rgb(161, 108, 35);
+  flex-direction: row-reverse;
+  align-items: center;
+}
+ */
+
+
+/* CARD */
+
+.container{
+  background-color: blueviolet;
+}
+
+.todos-campeoes{
+  display: block;
+}
+
+
+
+
+#calculo-agregado {
+  text-align: center;
+  background-color: #BF8A26;
+}
+
+
+#exibirCards {
+  align-items: center;
+  margin-top: 5rem;
+  margin-left: 8rem;
+  margin-right: 8rem;
 
 
 }
+
+#exibirCards {
+  align-items: center;
+  margin-top: 0.5rem;
+  margin: 2rem;
+  justify-content: center;
+  text-align: center;
+  position: sticky;
+
+}
+
+
+/* estilo dos card */
+
+
+.cards {
+  width: 18rem;
+  height: 18rem;
+  align-items: center;
+  display: inline-block;
+  justify-content: center;
+  background-color: rgb(2, 2, 25);
+  border-style: double;
+  color: rgb(161, 108, 35);
+  margin-bottom: 20px;
+}
+.card {
+  align-items: center;
+  background-color: rgb(22, 28, 104);
+  color: rgb(12, 207, 61);
+  flex-direction: column;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  position: relative;
+}
+
+.imagem-do-card {
+  width: 18rem;
+  height: 14rem;
+  position: relative;
+}
+.cards:hover .card {
+  -moz-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+.card-frente {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: center;
+}
+.card-frente,
+.card-verso {
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  flex-wrap: wrap;
+  display: flex;
+}
+.card-verso {
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+.info-do-card {
+  list-style: none;
+  font-size: 15px;
+  align-items: center;
+  text-align: justify;
+  flex-direction: column;
+}
+.nome-do-verso {
+  grid-row: auto;
+  display: inline-flex;
+  margin-left: 2px;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Cria animação */
 
