@@ -42,11 +42,13 @@ function ordenarCampeoes(campeoes, ordem) {
     } else if (ordem === "menor-dificuldade") {
       return campeaoA.info.difficulty - campeaoB.info.difficulty;
     }
+
+
   });
   return campeoesOrdenados;
 }
 
-function calculoAgragado(campeoes, campeoesFiltrados) {
+function calculoAgregado(campeoes, campeoesFiltrados) {
   const numeroCampeoesFiltrados = campeoesFiltrados.length;
   const totalDeCampeoes = campeoes.length;
   return `O tipo selecionado corresponde à ${((numeroCampeoesFiltrados / totalDeCampeoes) * 100).toFixed(2)}% do total de campeões.`;
@@ -56,5 +58,5 @@ export {
   buscaTag,
   buscaNome,
   ordenarCampeoes,
-  calculoAgragado
+  calculoAgregado
 }

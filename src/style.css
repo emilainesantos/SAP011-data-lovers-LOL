@@ -5,24 +5,36 @@
 }
 
 
+/*STYLE PAG. HOME */
+
+section {
+  background-color: black;
+}
+
+
+
+
+/* STYLE PAGINA HOME */
+
 body{
   position: relative;
+  background-image: src='/src/img/';
 }
 
 
  /*BARRA DE NAVEGAÇÃO */
 body nav{
-  background-color: rgb(16, 221, 187);
+  background-color: rgb(244, 245, 245);
   display: flex;
   flex-direction: row-reverse;
 
 }
 
 main ul{
-  background: rgb(199, 18, 79);
+  background: rgb(224, 12, 12);
   display: flex;
+  flex-direction: flex-end
 
-  flex-direction: row
 
 
 }
@@ -89,7 +101,7 @@ main ul{
 /* CARD */
 
 .container{
-  background-color: blueviolet;
+  background-color: rgb(13, 12, 14);
 }
 
 .todos-campeoes{
@@ -100,8 +112,10 @@ main ul{
 
 
 #calculo-agregado {
+  margin-top: 85px;
   text-align: center;
   background-color: #BF8A26;
+
 }
 
 
@@ -134,7 +148,7 @@ main ul{
   align-items: center;
   display: inline-block;
   justify-content: center;
-  background-color: rgb(2, 2, 25);
+  background-color: rgb(10, 10, 10);
   border-style: double;
   color: rgb(161, 108, 35);
   margin-bottom: 20px;
@@ -142,7 +156,7 @@ main ul{
 .card {
   align-items: center;
   background-color: rgb(22, 28, 104);
-  color: rgb(12, 207, 61);
+  color: rgb(255, 255, 255);
   flex-direction: column;
   transition: transform 1s;
   transform-style: preserve-3d;
@@ -151,7 +165,7 @@ main ul{
 }
 
 .imagem-do-card {
-  width: 18rem;
+  width: 17rem;
   height: 14rem;
   position: relative;
 }
@@ -191,7 +205,7 @@ main ul{
   grid-row: auto;
   display: inline-flex;
   margin-left: 2px;
-  flex-direction: column;
+
 }
 
 

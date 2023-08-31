@@ -1,5 +1,5 @@
 import lolData from "./data/lol/lol.js"
-import { buscaTag, buscaNome, ordenarCampeoes, calculoAgragado } from "./data.js"
+import { buscaTag, buscaNome, ordenarCampeoes, calculoAgregado } from "./data.js"
 // pegando os dados do lol.js e salvando na var lolData
 const campeoes = Object.values(lolData.data);
 // essa const atribuiu valor dos objetos do lol.js, para acessá-los incluir o nome da var da linha 1.data (pq   estão dentro do atributo com nome data)
@@ -65,7 +65,7 @@ botoesTiposCampeoes.forEach(function (tipoCampeao) {
     } else {
       const campeoesFiltrados = buscaTag(campeoes, tag);
       mostraCards(campeoesFiltrados);
-      calculoAgregadoTela.innerHTML = calculoAgragado(campeoes, campeoesFiltrados);
+      calculoAgregadoTela.innerHTML = calculoAgregado(campeoes, campeoesFiltrados);
     }
   })
 });
