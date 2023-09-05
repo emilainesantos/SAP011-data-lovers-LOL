@@ -67,6 +67,7 @@ describe("ordenarCampeoes", () => {
         info: { attack: 8, defense: 5, magic: 3, difficulty: 6 },
       },
     ];
+    
     const ordem = "maior-defesa";
 
     const resultadoEsperado = [
@@ -338,7 +339,7 @@ describe("ordenarCampeoes", () => {
     expect(ordenarCampeoes(campeoes, ordem)).toStrictEqual(resultadoEsperado);
   });
 
-  it("função de cálculo agragado com 100%", () => {
+  it("função de cálculo agregado com 100%", () => {
     const campeoes = [
       {
         nome: "Ashe",
@@ -373,7 +374,7 @@ describe("ordenarCampeoes", () => {
     expect(calculoAgregado(campeoes, campeoesFiltrados)).toStrictEqual(resultadoEsperado);
   });
 
-  it("função de cálculo agragado com 25%", () => {
+  it("função de cálculo agregado com 25%", () => {
     const campeoes = [
       {
         nome: "Ashe",

@@ -55,7 +55,7 @@ function ordenarCampeoes(campeoes, ordem) {
 function calculoAgregado(campeoes, campeoesFiltrados) {
   const numeroCampeoesFiltrados = campeoesFiltrados.length;
   const totalDeCampeoes = campeoes.length;
-  return `Á categoria selecionada corresponde à ${((numeroCampeoesFiltrados / totalDeCampeoes) * 100).toFixed(2)}% do total de campeões.`;
+  return `O tipo selecionado corresponde à ${((numeroCampeoesFiltrados / totalDeCampeoes) * 100).toFixed(2)}% do total de campeões.`;
 }
 
 export {

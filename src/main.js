@@ -69,6 +69,8 @@ botoesTiposCampeoes.forEach(function (tipoCampeao) {
     }
   })
 });
+
+
 const buscaCampeao = document.querySelector("#txt-busca");
 buscaCampeao.addEventListener("input", function () {
   const nomeInput = buscaCampeao.value;
