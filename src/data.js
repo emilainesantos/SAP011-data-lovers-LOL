@@ -10,6 +10,7 @@ function buscaTag(campeoes, tag) {
   return campeoesTag;
 }
 
+/*FUNÇAO DE BUSCA DE HEROI POR NOME */
 function buscaNome(campeoes, nome) {
   const filtraCampeoes = (campeao) => {
     if (campeao.name.toLowerCase().includes(nome)) {
@@ -20,6 +21,9 @@ function buscaNome(campeoes, nome) {
   const campeoesFiltrados = campeoes.filter(filtraCampeoes);
   return campeoesFiltrados
 }
+
+
+
 function ordenarCampeoes(campeoes, ordem) {
   const campeoesOrdenados = campeoes.sort((campeaoA, campeaoB) => {
     if (ordem === "maior-defesa") {
@@ -51,7 +55,7 @@ function ordenarCampeoes(campeoes, ordem) {
 function calculoAgregado(campeoes, campeoesFiltrados) {
   const numeroCampeoesFiltrados = campeoesFiltrados.length;
   const totalDeCampeoes = campeoes.length;
-  return `O tipo selecionado corresponde à ${((numeroCampeoesFiltrados / totalDeCampeoes) * 100).toFixed(2)}% do total de campeões.`;
+  return `Á categoria selecionada corresponde à ${((numeroCampeoesFiltrados / totalDeCampeoes) * 100).toFixed(2)}% do total de campeões.`;
 }
 
 export {
