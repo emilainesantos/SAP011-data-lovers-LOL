@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Data Lovers</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
   </head>
   <body onload="preCarregamento();">
@@ -15,25 +16,25 @@
     <!-- LOGO <div class="tenor-gif-embed" data-postid="23265202" data-share-method="host" data-aspect-ratio="2.37037" data-width="100%"><a href="https://tenor.com/view/mobile-legend-league-of-legends-gif-23265202">Mobile Legend League Of Legends GIF</a>from <a href="https://tenor.com/search/mobile+legend-gifs">Mobile Legend GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script> -->
 
 
-    <header>
+    <header class="header">
       <!-- BARRA DE NAVEGAÇÃO PRINCIPAL -->
+      <img class="logo" src="img/lol-logo-38475.PNG">
+      <label for="" class="icons">
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <i class='bx bx-x' id="close-icon"></i>
+      </label>
 
-      <nav>
-        <img class="logo" src="img/logo-removebg-preview.png">
-        <ul>
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Herois</a></li>
-          <li><a href="#">Jogar</a></li>
+      <nav class="navbar">
+          <a href="#">Sobre</a>
+          <a href="#">Herois</a>
+          <a href="#">Jogar</a>
 
-        </ul>
       </nav>
 
     </header>
 
-    <h1 >teste</h1>
 
-
-
+    <!-- Conteudo no corpo da pagina -->
     <main>
       <section class="menu-fixo">
         <div class="container">
@@ -78,7 +79,7 @@
     </main>
 
 
-    
+
 
     <div id="root"></div>
     <script src="main.js" type="module"></script>
