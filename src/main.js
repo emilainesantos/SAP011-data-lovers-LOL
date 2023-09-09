@@ -24,6 +24,7 @@ const traduz = (tag) => {
 }
 
 
+
 /*FUNÇÃO DOS CARD */
 
 function mostraCards(campeoes) {
@@ -37,6 +38,8 @@ function mostraCards(campeoes) {
                     <img src="${campeao.splash}" class="imagem-do-card">
                         <h2 id="nome-do-card">${campeao.name.toUpperCase()}</h2>
                     </div>
+
+
                     <div class="card-verso">
                     <h3 class="nome-verso">${campeao.name.toUpperCase()}</h3>
                         <ul class="info-do-card">
