@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Data Lovers</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- <body onload="preCarregamento();">
+  <div class="loading-screen">
+    <img class="spinner" src="img/lol-logo-38475.PNG" alt="logo-load-page">
+
+  </div> -->
+
+  <!-- LOGO <div class="tenor-gif-embed" data-postid="23265202" data-share-method="host" data-aspect-ratio="2.37037" data-width="100%"><a href="https://tenor.com/view/mobile-legend-league-of-legends-gif-23265202">Mobile Legend League Of Legends GIF</a>from <a href="https://tenor.com/search/mobile+legend-gifs">Mobile Legend GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script> -->
+
+
+  <header class="header">
+    <!-- BARRA DE NAVEGAÇÃO PRINCIPAL -->
+    <img class="logo" src="img/lol-logo-38475.PNG">
+
+    <input type="checkbox" id="check">
+    <label for="check" class="icons">
+      <i class='bx bx-menu' id="menu-icon"></i>
+      <i class='bx bx-x' id="close-icon"></i>
+    </label>
+
+    <nav class="navbar">
+      <a href="#">Sobre</a>
+      <a href="#">Herois</a>
+      <a href="#">Jogar</a>
+    </nav>
+
+  </header>
+
+
+  <!-- Conteudo no corpo da pagina -->
+  <main>
+    <section class="menu-fixo">
+      <div class="container">
+        <p id="calculo-agregado"></p>
+        <ul class="menu" role="menu">
+          <li class="filtra-campeoes" id="filtra-todos"> Todos</li>
+          <li class="filtra-campeoes" id="Assassin"> Assassinos </li>
+          <li class="filtra-campeoes" id="Fighter"> Lutadores</li>
+          <li class="filtra-campeoes" id="Mage"> Magos </li>
+          <li class="filtra-campeoes" id="Marksman"> Atiradores </li>
+          <li class="filtra-campeoes" id="Support"> Suportes</li>
+          <li class="filtra-campeoes" id="Tank"> Tanques </li>
+        </ul>
+
+        <!-- AQUI COMEÇA O CAMPO DE BUSCA POR NOME E CLASSIFICAÇÃO DOS CAMPEÕES  -->
+        <section class="busca-classifica">
+          <input type="text" id="txt-busca" placeholder="Buscar campeão" />
+          <select class="selecione">
+            <option>Classificação</option>
+            <option value="maior-ataque">Maior ataque </option>
+            <option value="maior-defesa"> Maior defesa </option>
+            <option value="maior-magia"> Maior magia </option>
+            <option value="maior-dificuldade"> Maior dificuldade </option>
+            <option value="menor-ataque"> Menor ataque</option>
+            <option value="menor-defesa"> Menor defesa </option>
+            <option value="menor-magia"> Menor magia </option>
+            <option value="menor-dificuldade"> Menor dificuldade </option>
+          </select>
+          <button onClick="window.location.reload()" class="botao-limpar"> Limpar pesquisa</button>
+        </section>
+      </div>
+    </section>
+
+
+
+    <!-- AQUI FICARÃO OS CARDS DOS CAMPEÕES -->
+    <section class="todos-campeoes">
+      <p id="calculo-agregado"></p>
+      <div id="exibirCards">
+      </div>
+    </section>
+
+  </main>
+
+
+
+  <div id="root"></div>
+  <script src="main.js" type="module"></script>
+  <script src="loading.js"></script>
+</body>
+
+</html>
