@@ -259,15 +259,15 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
 
 ### Controle de Versões (Git e GitHub)
 
-- [ ] **Git: Instalação e configuração**
+- [ x] **Git: Instalação e configuração**
 
-- [ ] **Git: Controle de versão com git (init, clone, add, commit, status, push, pull, remote)**
+- [x ] **Git: Controle de versão com git (init, clone, add, commit, status, push, pull, remote)**
 
-- [ ] **Git: Integração de mudanças entre ramos (branch, checkout, fetch, merge, reset, rebase, tag)**
+- [ x] **Git: Integração de mudanças entre ramos (branch, checkout, fetch, merge, reset, rebase, tag)**
 
-- [ ] **GitHub: Criação de contas e repositórios, configuração de chave SSH**
+- [ x] **GitHub: Criação de contas e repositórios, configuração de chave SSH**
 
-- [ ] **GitHub: Implantação com GitHub Pages**
+- [x ] **GitHub: Implantação com GitHub Pages**
 
   <details><summary>Links</summary><p>
 
@@ -536,49 +536,6 @@ Você também deverá fazer os teste unitários das funções implementadas no a
 
 ***
 
-## 8. Pistas, dicas e leituras complementares
-
-Participe do canal do Slack
-[#project-data-lovers](https://claseslaboratoria.slack.com/archives/C03MV35EP5M)
-para conversar e pedir ajuda no projeto.
-
-### Primeiros passos
-
-Antes de começar a escrever o código, você deve definir seu produto com base no
-conhecimento que puder obter a respeito de seus usuários. Estas perguntas podem
-ajudar:
-
-* Quem são os usuários principais do produto?
-* Quais são os objetivos dos usuários com relação ao produto?
-* Quais são os dados mais relevantes que querem ver na interface e por quê?
-* Quando utilizam ou utilizariam o produto?
-* Toda sua investigação prévia deve ter como resultado as histórias de usuário
-  de seu projeto.
-* Não faça os protótipos de alta fidelidade de todas as suas histórias. Comece
-  somente pela que necessite para seu Sprint 1.
-
-Quando estiver pronta para codar, sugerimos começar desta forma:
-
-1. Uma das integrantes da dupla deve fazer um :fork_and_knife:
-   [fork](https://help.github.com/articles/fork-a-repo/) do repositório de sua
-   turma (a equipe de formação fornecerá o link). A outra integrante da dupla
-   deve fazer um fork **a partir do repositório de sua companheira** e
-   [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1) um `remote`
-   a partir dele.
-2. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
-   seu _fork_ para seu computador (cópia local).
-3. Instale as dependências do projeto com o comando `npm install`, assumindo que
-   já tenha instalado o [Node.js](https://nodejs.org/) (que inclui
-   [npm](https://docs.npmjs.com/)).
-4. Se tudo correr bem, deve ser capaz de executar os :traffic_light: testes
-   unitários (unit tests) com o comando `npm test`.
-5. Para ver a interface de seu programa no navegador, utilize o comando `npm
-   start` para subir o servidor web no endereço `http://localhost:5000`.
-6. Comece a codar! :rocket:
-
-***
-
-### Conteúdo de referência
 
 #### UX Design (Experiência do usuário)
 
@@ -592,30 +549,7 @@ Quando estiver pronta para codar, sugerimos começar desta forma:
 * Unidade de objetos do curso de JavaScript do LMS.
 * Unidade de funções do curso de JavaScript do LMS.
 * Unidade de DOM do curso de JavaScript do LMS.
-* [Array no
-  MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array)
-* [Array.sort no
-  MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
-* [Array.map no
-  MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
-* [Array.filter no
-  MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/filtro)
-* [Array.reduce no
-  MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
-* [Array.forEach no
-  MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
-* [Object.keys no
-  MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
-* [Object.entries no
-  MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
-* [Fetch API no MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
-* [json.org](https://json.org/json-pt.html)
-* [expressions-vs-statements](https://2ality.com/2012/09/expressions-vs-statements.html)
-* [Tipos de Dados](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Data_structures)
-* [Modulos:
-  Export](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/export)
-* [Modulos:
-  Import](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/import)
+*
 
 #### Ferramentas
 
@@ -623,32 +557,22 @@ Quando estiver pronta para codar, sugerimos começar desta forma:
 * [GitHub](https://github.com/)
 * [GitHub Pages](https://pages.github.com/)
 * [Node.js](https://nodejs.org/)
-* [Jest](https://jestjs.io/)
-
-#### Organização do trabalho
-
-* [Histórias de Usuário](https://www.youtube.com/watch?v=sEtiCJfXTE8)
-* [Definição de pronto](https://www.youtube.com/watch?v=Kfss63Q42F8)
-* [Critérios de
-  aceitação](https://medium.com/@karladiasn/user-stories-e-crit%C3%A9rios-de-aceita%C3%A7%C3%A3o-317c48403fcd)
-* [Guia para Data
-  Lovers](https://docs.google.com/presentation/d/1bOq8ns5wsvXdksdqYL3aQoxzFQsXTVlyvlV-yxI2oBM/present?token=AC4w5VhHBbEEA9u2w8bm3Ey1Cse349frbg%3A1567540902700&includes_info_params=1&eisi=CM_ytPW4teQCFQrJgQodeTcEZg#slide=id.g5282e1a53f_1_106)
 
 ***
 
 ## 9. Checklist
 
 * [ ] Usar VanillaJS.
-* [ ] Passa pelo linter (`npm run pretest`)
-* [ ] Passa pelos testes (`npm test`)
-* [ ] Testes unitários cobrem um mínimo de 70% de statements, functions, lines e
+* [x] Passa pelo linter (`npm run pretest`)
+* [x] Passa pelos testes (`npm test`)
+* [x] Testes unitários cobrem um mínimo de 70% de statements, functions, lines e
   branches.
-* [ ] Inclui uma _definição de produto_ clara e informativa no `README.md`.
+* [x] Inclui uma _definição de produto_ clara e informativa no `README.md`.
 * [ ] Inclui histórias de usuário no `README.md`.
-* [ ] Inclui rascunho da solução (protótipo de baixa fidelidade) no `README.md`.
-* [ ] Inclui uma lista de problemas detectados nos testes de usabilidade no
+* [x] Inclui rascunho da solução (protótipo de baixa fidelidade) no `README.md`.
+* [x] Inclui uma lista de problemas detectados nos testes de usabilidade no
   `README.md`.
-* [ ] UI: Mostra lista/tabela/etc com dados e/ou indicadores.
-* [ ] UI: Permite ordenar dados por um ou mais campos (asc e desc).
-* [ ] UI: Permite filtrar dados com base em uma condição.
-* [ ] UI: É _responsivo_.
+* [x] UI: Mostra lista/tabela/etc com dados e/ou indicadores.
+* [x] UI: Permite ordenar dados por um ou mais campos (asc e desc).
+* [x] UI: Permite filtrar dados com base em uma condição.
+* [x ] UI: É _responsivo_.
