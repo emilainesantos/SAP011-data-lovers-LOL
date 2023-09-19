@@ -143,3 +143,9 @@ Organização do trabalho
 Para a organização do projeto utilizamos o Trello para a construção de um roadmap, fracionando cada etapa, definindo metas e prioridades.
 
 No planejamento de sprint foram definidas as metas a serem atingidas para a próxima sprint, enquanto na daily eram definidas as prioridades das tarefas para o dia.
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 3b5b730ca7188f84b8321627002a4f3c2e57bad0
